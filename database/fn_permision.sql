@@ -1,0 +1,16 @@
+INSERT INTO `fn_permision` (`id`, `module`, `fun_level_1`, `fun_level_2`, `fun_level_3`, `remake`) VALUES (1, '配置管理', '账号管理', '用户管理', '新建/修改/删除/禁用/查询用户（管理员）', NULL);
+INSERT INTO `fn_permision` (`id`, `module`, `fun_level_1`, `fun_level_2`, `fun_level_3`, `remake`) VALUES (2, NULL, NULL, '角色管理', '角色的新建/修改/删除/查询（管理员）', NULL);
+INSERT INTO `fn_permision` (`id`, `module`, `fun_level_1`, `fun_level_2`, `fun_level_3`, `remake`) VALUES (3, '账号中心', '身份认证', '登录/登出', '用户登录校验（公开）', NULL);
+INSERT INTO `fn_permision` (`id`, `module`, `fun_level_1`, `fun_level_2`, `fun_level_3`, `remake`) VALUES (4, NULL, NULL, NULL, '用户登出跳转（登录用户）', NULL);
+INSERT INTO `fn_permision` (`id`, `module`, `fun_level_1`, `fun_level_2`, `fun_level_3`, `remake`) VALUES (5, NULL, '账号维护', '密码变更', '密码变更（管理员）', NULL);
+INSERT INTO `fn_permision` (`id`, `module`, `fun_level_1`, `fun_level_2`, `fun_level_3`, `remake`) VALUES (6, '信息查询', '标准查询', '-', '标准查询功能（公开）', NULL);
+INSERT INTO `fn_permision` (`id`, `module`, `fun_level_1`, `fun_level_2`, `fun_level_3`, `remake`) VALUES (7, NULL, '报告查询', '-', '报告查询功能（公开）', NULL);
+INSERT INTO `fn_permision` (`id`, `module`, `fun_level_1`, `fun_level_2`, `fun_level_3`, `remake`) VALUES (8, '信息管理', '标准管理', '-', '标准的录入/修改/删除/查询（管理员）', NULL);
+INSERT INTO `fn_permision` (`id`, `module`, `fun_level_1`, `fun_level_2`, `fun_level_3`, `remake`) VALUES (9, NULL, '报告管理', '-', '报告的录入/修改/删除/查询（管理员）', NULL);
+INSERT INTO `fn_permision` (`id`, `module`, `fun_level_1`, `fun_level_2`, `fun_level_3`, `remake`) VALUES (10, '培训模块', '培训资料管理', '培训课件管理', '培训课件的录入/修改/删除/查询（管理员）', NULL);
+INSERT INTO `fn_permision` (`id`, `module`, `fun_level_1`, `fun_level_2`, `fun_level_3`, `remake`) VALUES (11, NULL, NULL, '测验试题管理', '培训测验试题的录入/修改/删除/查询（管理员）', NULL);
+INSERT INTO `fn_permision` (`id`, `module`, `fun_level_1`, `fun_level_2`, `fun_level_3`, `remake`) VALUES (12, NULL, '培训课件查询/阅读', '-', '查询培训课件（登录用户）', NULL);
+INSERT INTO `fn_permision` (`id`, `module`, `fun_level_1`, `fun_level_2`, `fun_level_3`, `remake`) VALUES (13, NULL, '培训测验', '-', '查看/提交培训测验，显示测验结果（登录用户）', NULL);
+INSERT INTO `fn_permision` (`id`, `module`, `fun_level_1`, `fun_level_2`, `fun_level_3`, `remake`) VALUES (14, '会议通知', '通知管理', '-', '会议通知的发布/修改/删除/查询（管理员）', NULL);
+INSERT INTO `fn_permision` (`id`, `module`, `fun_level_1`, `fun_level_2`, `fun_level_3`, `remake`) VALUES (15, NULL, '通知查询', '-', '查看会议通知（登录用户）', NULL);
+INSERT INTO `fn_permision` (`id`, `module`, `fun_level_1`, `fun_level_2`, `fun_level_3`, `remake`) VALUES (16, NULL, NULL, NULL, NULL, NULL);
